@@ -1,2 +1,2 @@
-# diy-websites
+# diy-webdesign
 trying new design layouts 
