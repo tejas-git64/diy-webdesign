@@ -1,2 +1,2 @@
-# diy-webdesign
-trying new design layouts 
+# google-homepage-layout
+
