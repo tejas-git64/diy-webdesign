@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans:wght@700&display=swap");
+
+html,
+body,
+nav {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: "Kumbh Sans", "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  height: 20%;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 25px;
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  padding-left: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.5s;
+  padding: 10px 8px;
+  margin-right: 10px;
+  border-radius: 0.5em;
+}
+
+nav ul li a:hover {
+  padding: 11px;
+}
+
+nav ul li:nth-child(1) a:hover {
+  color: #ff4646;
+  box-shadow: 0px 5px 15px #ffb3b3;
+}
+
+nav ul li:nth-child(2) a:hover {
+  color: #f0d800;
+  box-shadow: 0px 5px 15px #e9ec3d;
+}
+
+nav ul li:nth-child(3) {
+  padding: 8px 10px;
+  margin: auto 5px;
+  margin-top: -10px;
+  border-radius: 50px;
+}
+
+nav ul li:nth-child(3) img {
+  width: 20px;
+  transition: 0.5s;
+}
+
+nav ul li:nth-child(3) img:hover {
+  transform: scale(1.08);
+}
+
+nav ul li:nth-child(3):hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px #b4b4b4;
+}
+
+nav ul li:nth-child(4) a {
+  color: #6d6d6d;
+  padding: 11px 22px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 0px 15px;
+  margin-right: 0px;
+  clip-path: circle(-1px at top right);
+  box-shadow: 0px 0px 10px #cacaca;
+}
+
+nav ul li:nth-child(4) a:hover {
+  box-shadow: 0px 0px 10px #424eff;
+  padding: 12px 24px;
+  background-color: #3866ff;
+  color: #ffffff;
+}
+
+.main {
+  height: 21%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .title {
+  display: flex;
+  position: absolute;
+  font-size: 5.5em;
+  align-items: center;
+  margin-top: 20em;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.main .title p:nth-child(1),
+.main .title p:nth-child(4) {
+  color: #447fff;
+}
+
+.main .title p:nth-child(2),
+.main .title p:nth-child(6) {
+  color: #e70000;
+}
+
+.main .title p:nth-child(5) {
+  color: #44b900;
+}
+
+.main .title p:nth-child(3) {
+  color: #f8be00;
+}
+
+.main .searchbar {
+  position: relative;
+  display: flex;
+  top: 6.5em;
+  justify-content: center;
+}
+
+.main .searchbar input {
+  width: 600px;
+  height: 45px;
+  border-radius: 25px;
+  padding: 0px 50px;
+  transition: 0.3s;
+  outline: none;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 0px 10px #cacaca;
+}
+
+.main .searchbar input:hover {
+  box-shadow: 0px 0px 20px #afafaf;
+}
+
+.main .searchbar img {
+  width: 20px;
+}
+
+.main .searchbar a:nth-child(1) img {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  transition: 0.2s;
+  width: 18px;
+}
+
+.main .searchbar a:nth-child(1) img:hover {
+  width: 20px;
+}
+
+.c1 {
+  filter: invert(1) brightness(0.4);
+}
+
+.main .searchbar a:nth-child(3) img {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+.c2 {
+  transition: 0.3s;
+  padding: 0px;
+  filter: invert(0.6);
+}
+
+.main .searchbar a:nth-child(3) img:hover {
+  filter: invert(1) brightness(0.3) sepia(5) hue-rotate(180deg) saturate(15);
+  width: 22px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+  margin-bottom: 2.5em;
+}
+
+.more a {
+  padding: 15px;
+  margin: 0px 5px;
+  margin-top: 10em;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 8px #969696;
+  text-decoration: none;
+  border: 1px solid #dadada;
+  color: #575757;
+  border-style: dashed;
+  background: #ffffff;
+}
+
+p {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20.8em;
+}
+
+.location {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px 30px;
+  color: #000;
+  background: #ebebeb;
+}
+
+.links {
+  display: flex;
+  background: #ebebeb;
+  border-top: 1px solid #cecece;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.links ul {
+  display: flex;
+  padding: 0px 20px;
+}
+
+.links ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.links ul li a:hover {
+  font-weight: 600;
+}
